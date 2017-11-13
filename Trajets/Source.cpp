@@ -1,5 +1,5 @@
 #include <iostream>
-#include <CString>
+#include <cstring>
 using namespace std;
 
 void ajTrajSimp() {
@@ -19,7 +19,7 @@ void rechAv() {
 }
 
 int main() {
-	cout << "/////////////// POLYMORPHISME ///////////////";
+	cout << "/////////////// POLYMORPHISME ///////////////" << endl << endl;
 
 	
 	bool verif = false;
@@ -29,10 +29,10 @@ int main() {
 		int temp;
 
 		cout << "1. Ajouter trajet simple" << endl;
-		cout << "2. Ajouter trajet composé" << endl;
+		cout << "2. Ajouter trajet compose" << endl;
 		cout << "3. Recherche" << endl;
 		cout << "4. Recherche avancée" << endl;
-		cout << "5. Quitter" << endl;
+		cout << "5. Quitter" << endl << endl;
 
 		cin >> temp;
 
